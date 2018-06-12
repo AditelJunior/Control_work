@@ -1,0 +1,14 @@
+.order {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+.order_item {
+    border-top: 2px dotted white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.order_item:first-child {
+    border: 0;
+}

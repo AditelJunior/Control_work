@@ -1,0 +1,17 @@
+.products {
+    width: 50%;
+    text-align: center;
+}
+.product_item {
+    display: inline-block;
+    border: 1px solid #6C6C6C;
+    width: 49%;
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+.product_item:nth-child(even) {
+    float: right
+}
+.product_item:nth-child(odd) {
+    float: left
+}
